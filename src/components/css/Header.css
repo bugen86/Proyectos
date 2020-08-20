@@ -1,11 +1,19 @@
 .Header {
-	text-align: center;
-	background-color: #000000;
-	height: 6vh;
+	height: 100vh;
+	background-image: url("../../images/header.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	font-size: calc(1rem);
+	color: white;
+}
+
+.NavBar {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	font-size: calc(10px + 2vmin);
-	color: white;
+	align-items: flex-start;
+	justify-content: flex-start;
+	text-align: start;
+	padding-top: 1rem;
+	padding-left: 1rem;
 }

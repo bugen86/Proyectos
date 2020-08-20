@@ -9,7 +9,10 @@ class Header extends Component {
 	render() {
 		return (
 			<header className="Header">
-				<h2>Header -> NavBar</h2>
+				<div>
+					<h2 className="NavBar">NavBar</h2>
+					<img src="../images/logo.png" alt="" />
+				</div>
 			</header>
 		)
 	}
