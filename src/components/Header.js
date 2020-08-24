@@ -3,15 +3,14 @@ import React, { Component } from "react"
 
 // Css
 import "./css/Header.css"
-
+import Logo from "../images/logo.png"
 // Main
 class Header extends Component {
 	render() {
 		return (
 			<header className="Header">
 				<div>
-					<h2 className="NavBar">NavBar</h2>
-					<img src="../images/logo.png" alt="" />
+					<img src={Logo} alt="Logo" />
 				</div>
 			</header>
 		)

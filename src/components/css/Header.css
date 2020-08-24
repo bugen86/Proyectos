@@ -8,6 +8,11 @@
 	color: white;
 }
 
+.Header img {
+	margin-left: 15px;
+	margin-top: 15px;
+}
+
 .NavBar {
 	display: flex;
 	flex-direction: column;

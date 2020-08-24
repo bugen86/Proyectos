@@ -8,6 +8,7 @@ import "./css/App.css"
 import Header from "./Header"
 import Main from "./Main"
 import Footer from "./Footer"
+import NavBarLink from "./NavBar/NavBarLink/NavBarLink"
 
 // Main
 class App extends Component {
@@ -15,6 +16,7 @@ class App extends Component {
 		return (
 			<React.Fragment>
 				<Header />
+				<NavBarLink donde="https://google.com" texto="Apretame" />
 				<Main />
 				<Footer />
 			</React.Fragment>
