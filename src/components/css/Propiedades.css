@@ -1,0 +1,11 @@
+.Propiedades {
+	text-align: center;
+	background-color: #445169;
+	min-height: 74vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
